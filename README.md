@@ -10,8 +10,8 @@
 # if not created (probably already is)
 python -m venv myenv
 
-# run
-source myenv/bin/activate
+# run or select env/interpreter with GUI
+conda activate myenv
 
 # install packages (if needed)
 pip install numpy scikit-learn
